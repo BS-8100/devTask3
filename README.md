@@ -10,7 +10,11 @@ Make the data to remain persistent ( If server collects some data like logs, oth
 5. Job 4: if the app is not working, then send email to the developer with error messages and redeploy the application after code is being edited by the developer
 ## Pre-requisites for the practical :
 Git Installed on Your System
+
 A Github Repository should be there to commit the code or cloned in the local system.
+
 Create a post-commit hook in .git/hooks folder in Git for git push so that if a developer commits code then it automatically pushes to Github.
+
 Configure Kubernetes in your Rhel OS.
+
 Configure Jenkins in your Rhel OS.
